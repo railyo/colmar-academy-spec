@@ -1,0 +1,98 @@
+.site_header{
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+.header_container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.banner_image .nav {
+    justify-content: space-between;
+}
+.banner_image {
+    display: inline-flex;
+    padding-right: 30%;
+}
+.nav {
+    gap: 16px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(216, 215, 215);
+    width: 100%;
+    padding: 40px 0;
+
+}
+.banner_photo {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin: 32px 24px;
+}
+
+.campus_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.campus_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 0;
+}
+.campus_details {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 0;
+    margin: 32px 24px;
+    align-items: center;
+
+}
+.main_photo {
+    width: 100%;
+    height: auto;
+}
+.orientation_photo .campus_photo .guest_photo {
+    display: flex;
+    flex-direction: row;
+    float: left;
+
+}
+.orientation .our_campus .our_guest_lecture {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.video_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0;
+}
+.start_wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: rgb(216, 215, 215);
+    padding: 0;
+}
